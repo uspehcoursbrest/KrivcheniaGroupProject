@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco</title>
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+</head>
+<body>
+<!--Хэдэр-->
+<header>
+    <div class="container">
+        <div class="left">
+            <a href="#">
+                <span></span>
+            </a>
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+        <div class="logo">
+            <a href="#">
+                <img src="" alt="">
+            </a>
+        </div>
+        <div class="right">
+            <a href="#">
+                <span></span>
+            </a>
+            <a href="#"></a>
+            <p></p>
+            <a href="#">
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </div>
+</header>
+<div class="container">
+    <div>
+        <label for=""></label>
+        <input type="text" id="">
+    </div>
+    <div>
+        <label for=""></label>
+        <input type="text" id="">
+    </div>
+    <div>
+        <label for=""></label>
+        <input type="text" id="">
+    </div>
+    <div>
+        <div>
+            <span></span>
+            <span></span>
+        </div>
+        <div>
+            <div>
+                <label for=""></label>
+                <input type="text">
+                <div type="radio"></div>
+            </div>
+            <div>
+                <label for=""></label>
+                <input type="text">
+                <div type="radio"></div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <input type="text">
+        <div type="downland">
+        </div>
+        <span></span>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div>
+            <ul>
+                <li>
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div>
+                <a href="#"></a>
+                <a href="#"></a>
+                <span></span>
+                <span></span>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span>
+                        <a href=""></a>
+                    </span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+
