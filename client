@@ -41,42 +41,64 @@
     </div>
 </header>
 <div class="container">
-    <div>
-        <label for=""></label>
-        <input type="text" id="">
-    </div>
-    <div>
-        <label for=""></label>
-        <input type="text" id="">
-    </div>
-    <div>
-        <label for=""></label>
-        <input type="text" id="">
-    </div>
-    <div>
-        <div>
-            <span></span>
-            <span></span>
-        </div>
-        <div>
+    <form> action="#">
+        <div class="data">
             <div>
                 <label for=""></label>
-                <input type="text">
-                <div type="radio"></div>
+                <input type="text" id="">
             </div>
             <div>
                 <label for=""></label>
-                <input type="text">
-                <div type="radio"></div>
+                <input type="text" id="">
+            </div>
+            <div>
+                <label for=""></label>
+                <input type="text" id="">
             </div>
         </div>
-    </div>
-    <div>
-        <input type="text">
-        <div type="downland">
+        <div>
+            <div>
+                <span></span>
+                <span></span>
+            </div>
+            <div>
+                <div>
+                    <label for=""></label>
+                    <input type="radio">
+                </div>
+                <div>
+                    <label for=""></label>
+                    <input type="radio">
+                </div>
+            </div>
         </div>
-        <span></span>
-    </div>
+        <div>
+            <div>
+                <input type="file" name="" id="">
+                <span></span>
+            </div>
+        </div>
+        <div>
+            <label for=""></label>
+            <select name="" id="">
+                <option value=""></option>
+            </select>
+        </div>
+        <div>
+            <label for=""></label>
+            <div>
+                <input type="date" name="" id="">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div>
+            <label for=""></label>
+            <textarea name="" id=""></textarea>
+        </div>
+        <div>
+            <input type="submit" value="">
+        </div>
+    </form>
 </div>
 <footer>
     <div class="container">
