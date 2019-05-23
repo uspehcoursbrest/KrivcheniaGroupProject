@@ -2,145 +2,57 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eco</title>
+    <title>Корпоративным клиентам</title>
     <link rel="stylesheet" href="fonts/stylesheet.css">
 </head>
 <body>
-<!--Хэдэр-->
-<header>
-    <div class="container">
-        <div class="left">
-            <a href="#">
-                <span></span>
-            </a>
-            <ul>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-            </ul>
-        </div>
-        <div class="logo">
-            <a href="#">
-                <img src="" alt="">
-            </a>
-        </div>
-        <div class="right">
-            <a href="#">
-                <span></span>
-            </a>
-            <a href="#"></a>
-            <p></p>
-            <a href="#">
-                <span></span>
-                <span></span>
-            </a>
-        </div>
+<form action="">
+    <div>
+        <label for="company">Название организации</label>
+        <input type="text" name="company" id="company">
     </div>
-</header>
-<div class="container">
-    <form> action="#">
-        <div class="data">
-            <div>
-                <label for=""></label>
-                <input type="text" id="">
-            </div>
-            <div>
-                <label for=""></label>
-                <input type="text" id="">
-            </div>
-            <div>
-                <label for=""></label>
-                <input type="text" id="">
-            </div>
+    <div>
+        <label for="man">Контактное лицо</label>
+        <input type="text" name="man" id="man">
+    </div>
+    <div>
+        <label for="phone">Номер телефона</label>
+        <input type="text" name="phone" id="phone">
+    </div>
+    <div>
+        <div>
+            <span>Нанесение логотипа</span>
+            <span>занимает 20 рабочих дней</span>
         </div>
         <div>
-            <div>
-                <span></span>
-                <span></span>
-            </div>
-            <div>
-                <div>
-                    <label for=""></label>
-                    <input type="radio">
-                </div>
-                <div>
-                    <label for=""></label>
-                    <input type="radio">
-                </div>
-            </div>
+            <label for="yes">Да</label>
+            <input type="radio" name="logo" id="yes" value="yes">
+            <label for="no">Нет</label>
+            <input type="radio" name="logo" id="no" value="no">
         </div>
         <div>
-            <div>
-                <input type="file" name="" id="">
-                <span></span>
-            </div>
+            <span>Прикрепите логотип</span>
+            <input type="file" name="" id="">
+            <span>.cdr, .ai, .eps, .tiff</span>
         </div>
         <div>
-            <label for=""></label>
-            <select name="" id="">
-                <option value=""></option>
+            <label for="figure">Колличество фигур</label>
+            <select name="figure" id="figure">
+                <option value="50">50</option>
+                <option value="100">100</option>
+                <option value="150">150</option>
             </select>
         </div>
         <div>
-            <label for=""></label>
-            <div>
-                <input type="date" name="" id="">
-                <img src="" alt="">
-            </div>
+            <label name="timOrder">Подготовить заказ к</label>
+            <input type="date" name="timOrder" id="timOrder">
         </div>
         <div>
-            <label for=""></label>
-            <textarea name="" id=""></textarea>
+            <label name="massage">Дополнительная информация</label>
+            <textarea name="massage" id="massage"></textarea>
         </div>
-        <div>
-            <input type="submit" value="">
-        </div>
-    </form>
-</div>
-<footer>
-    <div class="container">
-        <div>
-            <ul>
-                <li>
-                    <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                </li>
-                <li>
-                    <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                </li>
-            </ul>
-            <div>
-                <a href="#"></a>
-                <a href="#"></a>
-                <span></span>
-                <span></span>
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-            </div>
-            <div>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span>
-                        <a href=""></a>
-                    </span>
-            </div>
-        </div>
+        <input type="submit" value="Отправить">
     </div>
-</footer>
-
+</form>
 </body>
 </html>
-
-
