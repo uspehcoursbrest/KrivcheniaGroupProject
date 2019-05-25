@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe7b383f-dc30-459f-9921-56276fde64a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/KrivcheniaGroupProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Новая папка.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/рабочий проект 1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client" beforeDir="false" afterPath="$PROJECT_DIR$/client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eco.html" beforeDir="false" afterPath="$PROJECT_DIR$/eco.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/korzina2.html" beforeDir="false" afterPath="$PROJECT_DIR$/korzina2.html" afterDir="false" />
-    </list>
+    <list default="true" id="fe7b383f-dc30-459f-9921-56276fde64a3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -122,16 +113,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558634964407</updated>
-      <workItem from="1558634965696" duration="3222000" />
+      <workItem from="1558634965696" duration="3937000" />
     </task>
+    <task id="LOCAL-00001" summary="Добавила текст к странице корзина">
+      <created>1558638611571</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558638611571</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3222000" />
+    <option name="totallyTimeSpent" value="3937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496474" />
@@ -154,6 +152,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавила текст к странице корзина" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавила текст к странице корзина" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/client">
