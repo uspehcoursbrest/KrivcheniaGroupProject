@@ -84,3 +84,27 @@ header .phone [class*="icon"] {
     line-height: 37px;
     color: #999999;
 }
+
+
+/*Корзина*/
+.breadcrumbs {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #999999;
+}
+.product .name span,
+.product .name a {
+    font-size: 15px;
+    line-height: 22px;
+}
+.product .name span {
+    color: #333;
+}
+.product .name a {
+    text-decoration: underline;
+    color: #0069b4;
+}
+.product .info span:nth-child(2) {
+
+}
