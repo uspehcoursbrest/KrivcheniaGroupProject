@@ -1,110 +1,432 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 body {
     margin: 0 auto;
     font-family: "Open Sans";
 }
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
+
 ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
+
 .container {
     width: 1010px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 header .login {
     font-size: 13px;
     line-height: 18px;
     color: #0069b4;
 }
+
 header .menu a {
     font-size: 13px;
     line-height: 28px;
     color: #333333;
 }
-header .phone {
+
+header .tel {
     font-size: 20px;
     line-height: 20px;
     color: #333333;
     text-decoration: none;
 }
-header .callback {
+
+header .noCall {
     font-size: 12px;
     line-height: 16px;
     text-decoration: none;
     color: #0069b4;
     border-bottom: 1px dashed #0069b4;
 }
-header .timing {
+
+header .time {
     font-size: 13px;
     line-height: 19px;
     color: #999999;
 }
+
 header .basket {
     font-size: 13px;
     line-height: 22px;
-    color: #333333;
+    color: #caebd4;
     text-decoration: none;
+    display: inline-block;
+    padding-left: 28px;
+    background-repeat: no-repeat;
+    background-position: left center;
 }
+
 header .basket span {
-    color: #1a9547;
+    color: #333333;
 }
+
 header [class*="icon"] {
     color: #caebd4;
 }
-header .login [class="icon"] {
+
+header .login [class*="icon"] {
     font-size: 18px;
 }
-header .phone [class*="icon"] {
+
+header .tel [class*="icon"] {
     font-size: 20px;
 }
+
+header .logo img {
+    height: 140px;
+    width: 155px;
+}
+
+.topLine {
+    display: table;
+    width: 100%;
+}
+.topLine > div {
+    display: table-cell;
+    width: 33%;
+    vertical-align: top;
+}
+.logo {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 18px;
+}
+
 .advantages .item span {
-    font-size: 14px;
+    font-size: 41px;
     font-weight: bold;
     line-height: 17px;
     color: #333333;
+}
+/*блок преимуществ*/
+
+.subscribe .wrap{
+    display: table;
+    width: 100%;
+}
+
+.subscribe {
+    width: 320px;
+    float: left;
+}
+.advantages {
+    width: calc(100% - 320px);
+    float: left;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 .advantages .item p {
     font-size: 12px;
     line-height: 14px;
     color: #666666;
 }
+.advantages .item img {
+    width: 40px;
+    height: 40px;
+}
 .subscribe label {
     font-size: 16px;
     color: #ffffff;
 }
+
 .subscribe input {
     font-size: 13px;
     line-height: 37px;
     color: #999999;
 }
 
-
-/*Корзина*/
-.breadcrumbs {
-    font-size: 12px;
-    font-weight: normal;
-    line-height: 22px;
-    color: #999999;
+.subscribe button {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #259c47;
+    font-size: 13px;
+    line-height: 37px;
+    text-align: center;
+    color: #ffffff;
 }
-.product .name span,
-.product .name a {
+
+.subscribe .wrap span {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+    color: rgba(225,255,255.0.5);
+}
+
+.subscribe {
+    background-color: #64ba4a;
+}
+
+.catalogMenu li {
+   display: inline-block;
+}
+.catalogMenu li + li {
+    margin-right: 18px;
+}
+.catalogMenu li {
+    font-size: 13px;
+    line-height: 16px;
+    border-bottom: 1px dashed #666666;
+}
+
+.catalogMenu li a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.card {
+    position: relative;
+}
+.status {
+    position: absolute;
+    display: block;
+    top: -3px;
+    left: -3px;
+    width: 43px;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+}
+.status.hit {
+    background-color: #6eddcc;
+}
+.status.discount {
+    background-color: #ffed03;
+}
+.status.new {
+    background-color: #78ec71;
+}
+
+
+.cards .card {
     font-size: 15px;
     line-height: 22px;
+    color: #333333;
 }
-.product .name span {
-    color: #333;
-}
-.product .name a {
-    text-decoration: underline;
+
+.card a {
+    font-size: 15px;
+    line-height: 22px;
     color: #0069b4;
 }
-.product .info span:nth-child(2) {
 
+.card .price {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #333333;
 }
+
+.card .price .old {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #666666;
+    text-decoration: line-through;
+}
+
+.card button {
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.socials h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    color: #666666;
+}
+
+.tabs li a {
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 45px;
+    color: #999999;
+}
+
+.info .content {
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.info .title {
+    text-transform: uppercase;
+}
+
+footer {
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a.soc {
+    font-size: 21px;
+}
+
+footer {
+    background-color: #64ba4a;
+}
+/*назначить дивам классы в подвале*/
+footer > div > div > ul {
+    width: 50%;
+    float: left;
+}
+footer > div > div > div {
+    width: 25%;
+    float: left;
+}
+/*стилизация страницы order - Оформление заказа*/
+
+.content .order h2 {
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.content .order .city {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: italic;
+    color: #666666;
+}
+
+.content .order select {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.delivery .deskription span, .delivery .deskription li{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #666666;
+}
+.delivery .deskription .bigText{
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #666666;
+}
+.delivery .selectio .colorText {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ff6633;
+}
+.address .addresstitle {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #333333;
+}
+.address .data label {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: italic;
+    color: #666666;
+}
+.address .data label span {
+    color: #ff3333;
+}
+.titleText {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.payment span {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #666666;
+}
+.payment .bigText {
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #666666;
+}
+.payment .titleText {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #333333;
+}
+.person label {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: italic;
+    color: #666666;
+}
+.person .datapersen label span {
+    color: #ff3333;
+}
+.person button {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.card .photo {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 220px;
+    height: 220px;
+}
+ .banner {
+     display: flex;
+     justify-content: space-between;
+ }
+ .banner .left {
+     height: 365px;
+     width: 305px;
+     -webkit-background-size: cover;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+ }
+ .banner .right{
+     height: 365px;
+     width: 640px;
+     -webkit-background-size: cover;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+
+ }
